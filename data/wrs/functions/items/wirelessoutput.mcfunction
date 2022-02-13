@@ -1,0 +1,1 @@
+give @s ghast_spawn_egg{display:{Name:'{"text":"Wireless redstone output","italic":false}'},EntityTag:{id:"minecraft:marker",Tags:["outputplaced"]},CustomModelData:238652}

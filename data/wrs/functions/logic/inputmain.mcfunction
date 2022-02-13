@@ -1,0 +1,1 @@
+execute store result score @s power run data get block ~ ~ ~ OutputSignal

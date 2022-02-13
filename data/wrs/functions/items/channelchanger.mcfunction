@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick{display:{Name:'{"text":"Channel Changer","color":"aqua","italic":false}'},Unbreakable:1b,CustomModelData:12634,channel:1b,channelchange:1b,HideFlags:4} 1

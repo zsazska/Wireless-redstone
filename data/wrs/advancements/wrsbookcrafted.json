@@ -1,0 +1,19 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "itemcrafted": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wrs:wrsbook"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "itemcrafted"
+        ]
+    ],
+    "rewards": {
+        "function": "wrs:items/crafted/wrsbookcrafted"
+    }
+}

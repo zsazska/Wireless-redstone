@@ -1,0 +1,36 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{channelchange:0b}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{channelchange:1b}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{channelchange:1b}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{channelchange:0b}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]
